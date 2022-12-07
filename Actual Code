@@ -3,8 +3,8 @@ Password brute-force algorithm.
 List of most probable passwords and english names can be found, respectively, at:
 - https://github.com/danielmiessler/SecLists/blob/master/Passwords/probable-v2-top12000.txt
 - https://github.com/dominictarr/random-name/blob/master/middle-names.txt
-Author: Raphael Vallat
-Date: May 2018
+Author: Shain Carrasco
+Date: Dec 2022
 Python 3
 """
 import string
