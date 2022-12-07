@@ -35,8 +35,8 @@ def bruteforce(password, max_nchar=8):
         Brute-forced password
     """
     print('1) Comparing with most common passwords / first names')
-    common_pass = loadtxt('probable-v2-top12000.txt', dtype=str)
-    common_names = loadtxt('middle-names.txt', dtype=str)
+    common_pass = loadtxt('top12000.txt', dtype=str)
+    common_names = loadtxt('random-names.txt', dtype=str)
     cp = [c for c in common_pass if c == password]
     cn = [c for c in common_names if c == password]
     cnl = [c.lower() for c in common_names if c.lower() == password]
